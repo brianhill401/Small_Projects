@@ -12,7 +12,7 @@ while True:
     if player_two.lower() == "exit":
         print("Goodbye.")
         break
-    if player_one == "rock" and player_two == "scissors":
+    elif player_one == "rock" and player_two == "scissors":
         print("Player One wins!")
     elif player_one == "scissors" and player_two == "paper":
         print("Player One wins!")
